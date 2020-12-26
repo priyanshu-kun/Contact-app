@@ -1,0 +1,69 @@
+.card-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.inner-wrapper {
+    display: flex;
+    width: 38vw;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    /* background: rgb(233, 233, 233); */
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.inner-wrapper button {
+    /* display: block; */
+    border: none;
+    background: none;
+    padding: 6px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.inner-wrapper button:first-child {
+    margin-right: 10px;
+    /* color:; */
+}
+
+.inner-wrapper button:first-child:hover {
+    background: rgb(255, 0, 0, 0.1);
+}
+
+
+.inner-wrapper button:last-child:hover {
+    background: rgba(9, 255, 0, 0.1);
+}
+
+
+
+.data-field {
+    display: flex;
+}
+
+.data-field div:first-child {
+    /* margin-right: 60px; */
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding-right: 30px;
+
+}
+
+.data-field div:first-child p {
+    opacity: 0.5;
+
+}
+
+.data-field div:last-child {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 30px;
+}
